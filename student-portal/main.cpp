@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+#include "academic.cpp"
+
 void printWelcomeMessage() {
     std::cout << "      Welcome to Git !       " << std::endl;
 }
@@ -22,7 +24,8 @@ int main() {
     int num2 = 10;
     int result = addNumbers(num1, num2);
 
-    std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result << std::endl;
+    // std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result << std::endl;
+    tell_score(result);
     std::cout << "Program finished successfully." << std::endl;
 
     return 0;
