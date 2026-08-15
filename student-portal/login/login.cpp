@@ -31,6 +31,10 @@ void resetPassword(){
     std::cout << "Password reset link sent" << std::endl;
 }
 
+void validateEmail(std::string email) {
+    std::cout << "Email validated" << std::endl;
+}
+
 int main() {
     std::cout << "Login module loaded" << std::endl;
     return 0;
