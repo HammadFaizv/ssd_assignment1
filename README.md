@@ -13,3 +13,7 @@ Git / GitLabs / CLI
 
 ## Purpose
 Support Students in academics and easy access.
+
+## Features
+- Login system
+- User dashboard
