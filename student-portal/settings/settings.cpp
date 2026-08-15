@@ -21,6 +21,12 @@ void loadSettings(const Settings& s) {
     std::cout << "Language: " << s.language << std::endl;
 }
 
+void resetSettings(Settings& s) {
+    s.darkMode = false;
+    s.language = "en";
+    std::cout << "Settings reset to defaults" << std::endl;
+}
+
 int main() {
     std::cout << "Settings module loaded" << std::endl;
     return 0;
