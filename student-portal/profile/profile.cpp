@@ -6,6 +6,12 @@ struct Profile {
     int age;
 };
 
+void deleteProfile(Profile& pr) {
+    pr.name = "";
+    pr.age = 0;
+    std::cout << "Profile removed" << std::endl;
+}
+
 void updateProfile(Profile& pr) {
     std::cout << "Update link sent" << std::endl;
 }
