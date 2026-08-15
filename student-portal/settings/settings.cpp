@@ -6,6 +6,12 @@ struct Settings {
     std::string language;
 };
 
+void enableAdminOptions(std::string ad) {
+    if(ad == "Admin") {
+        std::cout << "Admin options enabled" << std::endl;
+    }
+}
+
 void saveSettings(const Settings& s) {
     std::cout << "Settings saved" << std::endl;
 }
