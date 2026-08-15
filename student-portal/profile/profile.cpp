@@ -10,6 +10,10 @@ void updateProfile(Profile& pr) {
     std::cout << "Update link sent" << std::endl;
 }
 
+void changeDP() {
+    std::cout << "DP changed" << std::endl;
+}
+
 void displayProfile(const Profile& pr) {
     std::cout << "Name: " << pr.name << std::endl;
     std::cout << "Age: " << pr.age << std::endl;
