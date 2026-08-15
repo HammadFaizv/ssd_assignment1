@@ -23,8 +23,12 @@ bool login(std::string username, std::string password) {
     }
 }
 
-bool logout() {
+void logout() {
     std::cout << "User logged out" << std::endl;
+}
+
+void resetPassword(){
+    std::cout << "Password reset link sent" << std::endl;
 }
 
 int main() {
