@@ -7,6 +7,11 @@ void sessionHashing(int sessions) {
     std::cout << "Sessions hashed" << std::endl;
 }
 
+void showAlerts(const std::vector<std::string>& alerts) {
+    for (const auto& a : alerts)
+        std::cout << "Alert: " << a << std::endl;
+}
+
 void showDashboard() {
     std::cout << "Dashboard loaded" << std::endl;
 }
