@@ -15,6 +15,10 @@ bool login(std::string username, std::string password) {
     }
 }
 
+bool logout() {
+    std::cout << "User logged out" << std::endl;
+}
+
 int main() {
     std::cout << "Login module loaded" << std::endl;
     return 0;
