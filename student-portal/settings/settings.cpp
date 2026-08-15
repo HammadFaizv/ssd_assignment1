@@ -12,6 +12,10 @@ void enableAdminOptions(std::string ad) {
     }
 }
 
+void exportSettings() {
+    std::cout << "Settings exported to xml file" << std::endl;
+}
+
 void saveSettings(const Settings& s) {
     std::cout << "Settings saved" << std::endl;
 }
