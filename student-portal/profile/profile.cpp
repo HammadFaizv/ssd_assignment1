@@ -6,6 +6,8 @@ struct Profile {
     int age;
 };
 
+struct Profile list[5]; // list of user profiles
+
 void deleteProfile(Profile& pr) {
     pr.name = "";
     pr.age = 0;
@@ -23,6 +25,14 @@ void changeDP() {
 void displayProfile(const Profile& pr) {
     std::cout << "Name: " << pr.name << std::endl;
     std::cout << "Age: " << pr.age << std::endl;
+}
+
+Profile searchProfile(std::string name) {
+    for(int i = 0; i<5; i++) {
+        if(list[i].name == name) {
+            return list[i];
+        }
+    }
 }
 
 int main() {
