@@ -5,6 +5,14 @@ std::string encrypt(std::string s) {
     for(int i = 0; i<s; i++) {
         s[i] = s[i] - 1;
     }
+    return s;
+}
+
+std::string decrypt(std::string s) {
+    for(int i = 0; i<s; i++) {
+        s[i] = s[i] + 1;
+    }
+    return s;
 }
 
 bool login(std::string username, std::string password) {
