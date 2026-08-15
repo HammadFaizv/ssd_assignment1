@@ -21,6 +21,10 @@ void loadSettings(const Settings& s) {
     std::cout << "Language: " << s.language << std::endl;
 }
 
+void changeLanguage(std::string lang) {
+    std::cout << "Language changed to " << lang << std::endl;
+}
+
 void resetSettings(Settings& s) {
     s.darkMode = false;
     s.language = "en";
