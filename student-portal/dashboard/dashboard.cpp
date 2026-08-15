@@ -2,6 +2,11 @@
 #include <vector>
 #include <string>
 
+
+void sessionHashing(int sessions) {
+    std::cout << "Sessions hashed" << std::endl;
+}
+
 void showDashboard() {
     std::cout << "Dashboard loaded" << std::endl;
 }
