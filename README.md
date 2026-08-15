@@ -11,3 +11,4 @@ Get student status and process academics.
 Git / GitLabs / CLI
 
 ## Purpose
+Support Students in academics and easy access.
