@@ -6,6 +6,10 @@ struct Settings {
     std::string language;
 };
 
+void saveSettings(const Settings& s) {
+    std::cout << "Settings saved" << std::endl;
+}
+
 void loadSettings(const Settings& s) {
     std::cout << "Dark mode: " << s.darkMode << std::endl;
     std::cout << "Language: " << s.language << std::endl;
