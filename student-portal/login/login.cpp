@@ -35,6 +35,10 @@ void validateEmail(std::string email) {
     std::cout << "Email validated" << std::endl;
 }
 
+void validatePhone(std::string phone) {
+    std::cout << "Phone number validated" << std::endl;
+}
+
 int main() {
     std::cout << "Login module loaded" << std::endl;
     return 0;
